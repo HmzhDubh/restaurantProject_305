@@ -80,10 +80,19 @@ public class Client {
                 line = userInput.nextLine();
                 out.println(line);
                 // results
-                line = in.nextLine();
-                System.out.println(line);
+//                line = in.nextLine();
+//                System.out.println(line);
 
             } else if (choice.matches("4")) {
+
+                // Enter phone number
+                line = in.nextLine();
+                System.out.println(line);
+                // response
+                line = userInput.nextLine();
+                out.println(line);
+
+            } else if (choice.matches("5")) {
 
                 line = in.nextLine();
                 System.exit(0);
